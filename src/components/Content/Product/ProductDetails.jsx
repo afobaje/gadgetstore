@@ -57,15 +57,7 @@ const ProductDetails = () => {
                 </span>
                 <span className="valbutton">
                   <button 
-                  // onClick={()=>{
-                  //   store.map((val)=>{
-                  //     if (val._id===value._id) {
-                  //       return setCounter((prev)=>[...prev,val])
-                  //     }
-                  //     return null;
-                  //   })
-                  // }}
-
+               
 
                   onClick={() => {
                     let existInCart =
