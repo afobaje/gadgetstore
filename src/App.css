@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+:root{
+  --cart-color:#d8f1f0;
+  --popular-color:#605e5e;
+  --primary-color:#2DC4BB;
+  --secondary-color:#292936;
+  --text-color:#1F1F21;
+  --navlist-color:#BBBBBB;
+  --card-color2:#FB9B1A;
+  --card-color12:#7C0ADB;
+  --colorForprimary-color:#F2F2F2;
+  --danger-color:#C02E0E;
+  --positive-color:#11C00E;
+  --container:#f7fafa;
+  --primary-container:#f4fdfd;
+  --home-color:#f2f2f2;
+  --fontFamily1:'Open Sans', sans-serif;
+  --fontfamily1Style:normal;
+  --fontFamily1weight:400;
+  --ff1size:12px;
+  --white:#ffffff;
+  --ff1lineHeight:16px;
+  --logo:#3b8580;
+  --contact:#fffefe;
+  --tits:#8e8ebe;
+  /* second one */
+  --bigcardthree:#d7d7d7;
+  --FF2:'Noto Sans';
+  --shopping:#000000;
+  --backgroundColor:#e6e6e6;
+  --poppins:'Poppins',sans-serif;
+  --Roboto:'Roboto',sans-serif;
+ --logincolor:#707082;
+ --Inter:'Inter',sans-serif;
+ --InterSmall:'Inter',sans-serif;
+ --supportbold:#3a3c3c;
+ --supportless:#c3c5c5;
+ --popular-item:#272727;
+ --bigcardtwo:#ff3f15;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .App{
+  background-color: var(--backgroundColor);
+  height: 100vh;
+} */

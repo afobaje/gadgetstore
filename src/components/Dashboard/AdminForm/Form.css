@@ -1,0 +1,108 @@
+.formwrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* flex-direction: column; */
+    font-family: var(--fontFamily1);
+}
+.formbody{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    width: 100%;
+    justify-content: center;
+    width: 80%;
+    margin:0 auto;
+    height: 100%;
+    /* box-shadow:-2px 1px 9px 3px rgb(217 197 197); */
+    /* box-shadow: 1px 1px 3px rgb(217, 197, 197); */
+}
+.formaction{
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    padding: 1rem;
+    /* border:1px solid rgb(100, 200, 100); */
+    /* place-content: center; */
+}
+.imgaction{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+.imgbody{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:1rem;
+    height: 80%;
+    margin: auto;
+}
+.imgbody img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.imgbody img:hover{
+    border-radius: 25px;
+    cursor:pointer;
+    opacity:.8;
+    outline: 1px solid var(--logo);
+    transition:border-radius .5s ease-in-out;
+}
+.formwrap{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    /* justify-content: flex-start; */
+}
+.formwrap div{
+    /* height: calc(60%/3); */
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.formwrap div label{
+    font-weight: bold;
+    font-size:16px;
+    margin-top: 2rem;
+    margin-bottom: .3rem;
+    color: var(--supportbold);
+}
+.formwrap div input{
+    border-radius: 15px;
+    border: 2px solid var(--secondary-color);
+    height: 60%;
+    width: 100%;
+    padding: 1rem;
+    font-size: 16px;
+}
+.formwrap div input:hover,.formwrap div input:focus{
+    border-radius:0px;
+    transition:border-radius .5s;
+}
+
+.formsubmit{
+    margin-top: 1rem;
+    font-size: 16px;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: var(--logo);
+    border: 0;
+    font-family: inherit;
+    border-radius: 15px;
+    color:var(--supportbold);
+}
+.formsubmit:hover,.formsubmit:focus{
+    border-radius: 0px;
+    transition: border-radius .5s;
+    cursor:pointer;
+}
